@@ -3,14 +3,13 @@
 C#/Winform 샘플 프로그램을 하나 만들고 거기에 자동 업데이트를 적용하도록 해 보겠다.
 
 사용한 너겟: https://github.com/ravibpatel/AutoUpdater.NET
-샘플프로그램 : 
+샘플프로그램 (this git) : https://github.com/froggy96/AutoUpdateTester
 
-0. 우선 AutoUpdate 를 하려면 Application 파일들을 (.exe 및 .dll 과 기타 파일들) zip 으로 묶어서
-다운로드 받을 수 있는 웹서버를 마련해서 파일을 미리 올려 두어야 한다.
-나는 XAMPP 를 설치해서 테스트 하였다.
-(여기서는 여백이 부족..........해서 XAMPP 설치 및 업로드 다운로드 등에 대한 설명은 하지 않겠다)
+0. 우선 AutoUpdate 를 하려면 Application 파일들을 (.exe 및 .dll 과 기타 파일들)
+zip 으로 묶어서 다운로드 받을 수 있는 웹서버를 마련해서 파일을 미리 올려 두어야 한다.
+나는 로컬에 XAMPP 를 설치해서 테스트 하였다.
+(여기서는 XAMPP 설치 및 사용법 등에 대한 설명은 하지 않겠다)
 
-=======================================================================
 자, 웹서버는 준비된 것으로 치고,
 
 1. Visual Studio 를 사용해서 C#, Winform App 을 하나 만든다.
