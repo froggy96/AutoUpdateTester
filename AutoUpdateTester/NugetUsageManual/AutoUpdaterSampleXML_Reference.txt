@@ -1,0 +1,16 @@
+﻿
+
+--Sample XML:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <version>2.0.0.0</version>
+    <url>http://rbsoft.org/downloads/AutoUpdaterTest.zip</url>
+    <changelog>https://github.com/ravibpatel/AutoUpdater.NET/releases</changelog>
+    <mandatory>false</mandatory>
+</item>
+
+--version: The Version of New Program
+--url: URL to Download The Program (zipped)
+--changelog: URL to The Page Of Changelog Listed
+--mandatory: User Must Update Program To This Newer Version if Set To true
